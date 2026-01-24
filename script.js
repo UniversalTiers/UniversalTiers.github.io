@@ -32,6 +32,8 @@ const players = [
   { name: "Trial1", tier: "A", skin: "nov4z", region: "AF" },
   { name: "Eyatui", tier: "A", region: "AS" },
 
+    { name: "ameliadihsucker", tier: "B", region: "AF" },
+
   { name: "antinity", tier: "D", region: "AS" },
 ];
 
@@ -69,5 +71,6 @@ searchInput.addEventListener("input", renderLeaderboard);
 
 /* Initial render */
 renderLeaderboard();
+
 
 
