@@ -32,12 +32,7 @@ const players = [
   { name: "Trial1", tier: "A", skin: "nov4z", region: "AF" },
   { name: "Eyatui", tier: "A", region: "AS" },
 
-  { name: "placeholder", tier: "B", region: "NA" },
-  { name: "placeholder", tier: "B", region: "EU" },
-  { name: "placeholder", tier: "C", region: "SA" },
-  { name: "placeholder", tier: "C", region: "NA" },
-  { name: "placeholder", tier: "D", region: "OC" },
-  { name: "placeholder", tier: "F", region: "NA" }
+  { name: "antinity", tier: "D", region: "AS" },
 ];
 
 /* Render leaderboard */
@@ -74,3 +69,4 @@ searchInput.addEventListener("input", renderLeaderboard);
 
 /* Initial render */
 renderLeaderboard();
+
