@@ -1,0 +1,173 @@
+/* Minecraftia font (reliable CDN) */
+@import url("https://fonts.cdnfonts.com/css/minecraftia");
+
+body {
+  background: #0b1220;
+  color: white;
+  font-family: "Minecraftia", "Minecraft", monospace;
+  margin: 0;
+}
+
+/* Header */
+header {
+  background: #0f172a;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+  letter-spacing: 2px;
+  text-shadow:
+    0 0 4px rgba(255,255,255,0.3),
+    0 0 10px rgba(59,130,246,0.4);
+}
+
+header p {
+  margin-top: 6px;
+  font-size: 12px;
+  color: #9ca3af;
+}
+
+/* Search bar */
+#search-bar {
+  padding: 15px;
+  text-align: center;
+}
+
+#search-bar input {
+  width: 260px;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background: #020617;
+  color: white;
+  font-family: "Minecraftia", "Minecraft", monospace;
+}
+
+/* Leaderboard */
+#leaderboard {
+  padding: 20px;
+}
+
+/* Player row */
+.player-row {
+  background: linear-gradient(180deg, #111827, #0b1220);
+  padding: 12px;
+  margin: 12px 0;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+/* Rank */
+.rank {
+  width: 34px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Avatar */
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+  image-rendering: pixelated;
+}
+
+/* Name (plain Minecraftia, no shine) */
+.name {
+  flex: 1;
+  font-weight: normal;
+  color: white;
+  text-shadow: none;
+}
+
+/* Region badge */
+.region {
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 10px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+/* Region colors */
+.region.NA { background: #dc2626; }
+.region.EU { background: #16a34a; }
+.region.AS { background: #2563eb; }
+.region.AF { background: #ca8a04; }
+.region.SA { background: #9333ea; }
+.region.OC { background: #0ea5e9; }
+.region.AN { background: #64748b; }
+
+/* Tier badges */
+.tiers {
+  display: flex;
+  gap: 8px;
+}
+
+.tier-badge {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgba(255,255,255,0.15);
+  box-shadow:
+    inset 0 0 5px rgba(255,255,255,0.2),
+    0 0 6px rgba(0,0,0,0.8);
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+/* Tier colors */
+.S {
+  background: linear-gradient(145deg, #ff6b6b, #d62828);
+  box-shadow: 0 0 10px rgba(255,80,80,0.7);
+}
+
+.A {
+  background: linear-gradient(145deg, #7CFF00, #4CAF50);
+}
+
+.B {
+  background: linear-gradient(145deg, #22c55e, #15803d);
+}
+
+.C {
+  background: linear-gradient(145deg, #fde047, #eab308);
+}
+
+.D {
+  background: linear-gradient(145deg, #a855f7, #6b21a8);
+}
+
+.F {
+  background: linear-gradient(145deg, #ff5fa2, #c0266d);
+}
+
+/* Hover effects */
+.player-row:hover {
+  transform: scale(1.01);
+  box-shadow: 0 0 10px rgba(255,255,255,0.1);
+}
+
+.tier-badge:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 12px white;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 10px;
+  color: #6b7280;
+}
