@@ -22,7 +22,7 @@ const players = [
   { name: "mcrrco", tier: "S", skin: "Straight", region: "EU" },
   { name: "ardoardo", tier: "S", region: "EU" },
   { name: "XFr4nB1kUp", tier: "S", region: "EU" },
-  { name: "bakedHooligan931", tier: "S", region: "EU" },
+  { name: "bakedHooligan931", tier: "S", region: "AS" },
   { name: "StormyMcYt", tier: "S", region: "EU" },
   { name: "BloodyA75L", tier: "S", region: "AF" },
 
@@ -69,4 +69,5 @@ searchInput.addEventListener("input", renderLeaderboard);
 
 /* Initial render */
 renderLeaderboard();
+
 
