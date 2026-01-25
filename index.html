@@ -3,42 +3,40 @@
 <head>
   <meta charset="UTF-8">
   <title>Universal Tiers</title>
+
+  <!-- Minecraftia Font -->
+  <link href="https://fonts.cdnfonts.com/css/minecraftia" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" href="https://i.imgur.com/aaOR813.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
 
-<header>
-  <h1>Universal Tiers</h1>
-
-</header>
-
-<div id="search-bar">
-  <input
-    type="text"
-    id="searchInput"
-    placeholder="Search player..."
-  >
-</div>
-
-
-<div id="leaderboard">
-
-  <div class="player-row">
-    <div class="rank">1.</div>
-    <img src="https://mc-heads.net/head/Notch/40" class="avatar">
-    <div class="name">PlayerOne</div>
-    <div class="region NA" title="North America">NA</div>
-    <div class="tiers">
-      <div class="tier-badge S">S</div>
-      <div class="tier-badge A">A</div>
-      <div class="tier-badge B">B</div>
-      <div class="tier-badge C">C</div>
-    </div>
+<!-- TOP BAR -->
+<div class="topbar">
+  <div class="top-left">
+    <img src="https://i.imgur.com/aaOR813.png" class="logo">
+    <span class="site-name">Universal Tiers</span>
   </div>
 
+  <div class="top-center">
+    <a href="https://discord.gg/RuPnnyk2jf" target="_blank" class="discord-btn">
+      Discord
+    </a>
+  </div>
+
+  <div class="top-right">
+    <input
+      type="text"
+      id="searchInput"
+      placeholder="Search player..."
+    >
+  </div>
 </div>
+
+<div id="leaderboard"></div>
 
 <footer>
   <p>Not affiliated with MCTiers.</p>
