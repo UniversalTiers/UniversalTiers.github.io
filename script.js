@@ -16,6 +16,7 @@ function getRegionName(code) {
 
 /* Hard-coded leaderboard data */
 const players = [
+  { name: "Technoblade", tier: "S", region: "NA" },
   { name: "Redstone_Master", tier: "S", region: "AS" },
   { name: "Warsky", tier: "S", skin: "Clownpierce", region: "NA" },
   { name: "Coolboy2121", tier: "S", region: "EU" },
@@ -71,4 +72,5 @@ searchInput.addEventListener("input", renderLeaderboard);
 
 /* Initial render */
 renderLeaderboard();
+
 
