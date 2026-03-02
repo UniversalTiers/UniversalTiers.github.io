@@ -25,10 +25,10 @@ const players = [
   { name: "ardoardo", tier: "S", region: "EU" },
   { name: "bakedHooligan931", tier: "S", region: "AS" },
   { name: "StormyMcYt", tier: "S", region: "EU" },
+  { name: "Estoniavillager", tier: "S", region: "EU" },
   { name: "BloodyA75L", tier: "S", region: "AF" },
 
   { name: "chrmozinx", tier: "A", region: "EU" },
-  { name: "Estoniavillager", tier: "A", region: "EU" },
   { name: "Bluuxy", tier: "A", region: "EU" },
   { name: "cabbycabbagehell", tier: "A", skin: "k0pusta", region: "AS" },
   { name: "Trial1", tier: "A", skin: "nov4z", region: "AF" },
@@ -73,6 +73,7 @@ searchInput.addEventListener("input", renderLeaderboard);
 
 /* Initial render */
 renderLeaderboard();
+
 
 
 
