@@ -16,7 +16,6 @@ function getRegionName(code) {
 
 /* Hard-coded leaderboard data */
 const players = [
-  { name: "Technoblade", tier: "S", region: "NA" },
   { name: "Redstone_Master", tier: "S", region: "AS" },
   { name: "Warsky", tier: "S", skin: "Clownpierce", region: "NA" },
   { name: "Coolboy2121", tier: "S", region: "EU" },
@@ -34,6 +33,7 @@ const players = [
   { name: "Trial1", tier: "A", skin: "nov4z", region: "AF" },
   { name: "Eyatui", tier: "A", region: "AS" },
 
+  { name: "lvCraft", tier: "B", region: "AS" },
   { name: "ameliadihsucker", tier: "B", region: "AF" },
 
   { name: "antinity", tier: "D", region: "AS" },
