@@ -27,6 +27,7 @@ const players = [
   { name: "Estoniavillager", tier: "S", region: "EU" },
   { name: "BloodyA75L", tier: "S", region: "AF" },
 
+  { name: "lvCraft_", tier: "B", region: "AS" },
   { name: "chrmozinx", tier: "A", region: "EU" },
   { name: "Bluuxy", tier: "A", region: "EU" },
   { name: "cabbycabbagehell", tier: "A", skin: "k0pusta", region: "AS" },
