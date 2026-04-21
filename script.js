@@ -34,10 +34,11 @@ const players = [
   { name: "Trial1", tier: "A", skin: "nov4z", region: "AF" },
   { name: "Eyatui", tier: "A", region: "AS" },
 
-  { name: "lvCraft", tier: "B", region: "AS" },
   { name: "ameliadihsucker", tier: "B", region: "AF" },
 
   { name: "antinity", tier: "D", region: "AS" },
+
+  { name: "dilahK", tier: "F", region: "AS" },
 ];
 
 /* Render leaderboard */
