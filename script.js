@@ -16,7 +16,7 @@ function getRegionName(code) {
 
 /* Hard-coded leaderboard data */
 const players = [
-  { name: "Redstone_Master", tier: "S", skin: "Redstone_Master", region: "NA" },
+  { name: "Redstone_Master", tier: "S", skin: "Gus_leme", region: "AS" },
   { name: "Coolboy2121", tier: "S", region: "EU" },
   { name: "Warsky", tier: "S", skin: "Clownpierce", region: "NA" },
   { name: "Mazes__", tier: "S", region: "AS" },
