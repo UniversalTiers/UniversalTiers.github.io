@@ -21,7 +21,6 @@ const players = [
   { name: "Warsky", tier: "S", skin: "Clownpierce", region: "NA" },
   { name: "Mazes__", tier: "S", region: "AS" },
   { name: "mcrrco", tier: "S", skin: "Straight", region: "EU" },
-  { name: "ardoardo", tier: "S", region: "EU" },
   { name: "bakedHooligan931", tier: "S", region: "AS" },
   { name: "StormyMcYt", tier: "S", region: "EU" },
   { name: "Estoniavillager", tier: "S", region: "EU" },
