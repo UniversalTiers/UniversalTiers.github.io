@@ -22,6 +22,7 @@ const players = [
   { name: "Mazes__", tier: "S", region: "AS" },
   { name: "bakedHooligan931", tier: "S", region: "AS" },
   { name: "StormyMcYt", tier: "S", region: "EU" },
+  { name: "ItzArdoks", tier: "S", region: "EU" },
   { name: "Estoniavillager", tier: "S", region: "EU" },
   { name: "BloodyA75L", tier: "S", region: "AF" },
 
