@@ -17,7 +17,7 @@ function getRegionName(code) {
 /* Hard-coded leaderboard data */
 const players = [
   { name: "Galactus7", tier: "S", region: "AS" },
-  { name: "Coolboy2121", tier: "S", region: "EU" },
+  { name: "Coolboy2121", tier: "S", region: "AS" },
   { name: "Warsky", tier: "S", skin: "Clownpierce", region: "NA" },
   { name: "Mazes__", tier: "S", region: "AS" },
   { name: "bakedHooligan931", tier: "S", region: "AS" },
