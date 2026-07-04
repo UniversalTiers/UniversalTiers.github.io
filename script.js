@@ -54,7 +54,7 @@ const players = [
 },
 
 {
-    name: "Coolboy2121",
+    name: "SxyroX_",
     overall:"S",
     region:"AS",
 
