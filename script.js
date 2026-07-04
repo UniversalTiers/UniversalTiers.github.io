@@ -362,7 +362,7 @@ function openProfile(player, rank) {
     document.getElementById("modalOverall").textContent = player.overall;
 
     document.getElementById("modalAvatar").src =
-        `https://mc-heads.net/head/${player.skin || player.name}/128`;
+        `https://mc-heads.net/head/${player.skin || player.name}`;
 
     const container = document.getElementById("modalSubtiers");
     container.innerHTML = "";
@@ -407,7 +407,7 @@ function renderLeaderboard() {
         const rank = index + 1;
 
         const avatar =
-            `https://mc-heads.net/head/${player.skin || player.name}/40`;
+            `https://mc-heads.net/head/${player.skin || player.name}`;
 
         const row = document.createElement("div");
         row.className = "player-row";
