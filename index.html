@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Universal Tiers</title>
+
+  <!-- Minecraftia Font -->
+  <link href="https://fonts.cdnfonts.com/css/minecraftia" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="https://i.imgur.com/aaOR813.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+<!-- TOP BAR -->
+<div class="topbar">
+  <div class="top-left">
+    <img src="https://i.imgur.com/aaOR813.png" class="logo">
+    <span class="site-name">Universal Tiers</span>
+  </div>
+
+  <div class="top-center">
+    <a href="https://discord.gg/RuPnnyk2jf" target="_blank" class="discord-btn">
+      Discord
+    </a>
+  </div>
+
+  <div class="top-right">
+    <input
+      type="text"
+      id="searchInput"
+      placeholder="Search player..."
+    >
+  </div>
+</div>
+
+<div id="leaderboard"></div>
+
+<!-- PLAYER POPUP -->
+<div id="playerModal" class="modal hidden">
+
+  <div class="modal-content">
+
+    <span id="closeModal">&times;</span>
+
+    <img id="modalAvatar" class="modal-avatar">
+
+    <h2 id="modalName"></h2>
+
+    <div class="modal-position">
+      Position <span id="modalRank"></span>
+    </div>
+
+    <div class="modal-overall">
+      Overall Tier:
+      <span id="modalOverall"></span>
+    </div>
+
+    <h3>Subtiers</h3>
+
+    <div id="modalSubtiers" class="subtiers"></div>
+
+  </div>
+
+</div>
+
+<footer>
+  <p>© Copyright Wowza Studios. Not affiliated with MCTiers.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

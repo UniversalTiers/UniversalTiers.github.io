@@ -1,0 +1,305 @@
+@import url("https://fonts.cdnfonts.com/css/minecraftia");
+
+/* =========================
+   HARD RESET (DESTROYS ALL GLOW SOURCES)
+========================= */
+* {
+    box-sizing: border-box !important;
+
+    text-shadow: none !important;
+    -webkit-text-stroke: 0 !important;
+    filter: none !important;
+    box-shadow: none !important;
+}
+
+/* =========================
+   BODY
+========================= */
+body {
+    margin: 0;
+    background: #0b1220;
+    color: white;
+
+    font-family: "Minecraftia", monospace !important;
+
+    text-shadow: none !important;
+}
+
+/* =========================
+   TOP BAR
+========================= */
+.topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 10px 20px;
+    background: #0f172a;
+
+    height: 60px;
+
+    text-shadow: none !important;
+}
+
+.top-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* LOGO */
+.logo {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+    display: block;
+}
+
+/* RIGHT SIDE */
+.top-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.top-right input {
+    height: 28px;
+    padding: 4px 10px;
+
+    border-radius: 6px;
+    border: none;
+    outline: none;
+
+    background: #020617;
+    color: white;
+
+    font-family: "Minecraftia", monospace !important;
+
+    text-shadow: none !important;
+}
+
+/* DISCORD */
+#discordBtn {
+    padding: 6px 10px;
+    border-radius: 6px;
+
+    background: #5865F2;
+    color: white;
+
+    border: none;
+    cursor: pointer;
+
+    font-family: "Minecraftia", monospace !important;
+
+    text-shadow: none !important;
+}
+
+/* =========================
+   LEADERBOARD
+========================= */
+#leaderboard {
+    padding: 20px;
+}
+
+/* ROW */
+.player-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    padding: 10px;
+    margin: 10px 0;
+
+    background: #111827;
+    border-radius: 10px;
+
+    cursor: pointer;
+    transition: 0.15s ease;
+
+    text-shadow: none !important;
+}
+
+.player-row:hover {
+    transform: scale(1.02);
+}
+
+/* RANK */
+.rank {
+    width: 40px;
+    font-weight: bold;
+
+    text-shadow: none !important;
+}
+
+/* AVATAR */
+.avatar {
+    width: 40px;
+    height: 40px;
+}
+
+/* NAME — ABSOLUTE NUCLEAR FIX */
+.name {
+    font-weight: 600;
+    margin-right: auto;
+
+    text-shadow: none !important;
+    -webkit-text-stroke: 0 !important;
+    filter: none !important;
+    box-shadow: none !important;
+}
+
+/* REGION */
+.region {
+    font-size: 11px;
+    padding: 4px 8px;
+    border-radius: 6px;
+
+    text-shadow: none !important;
+}
+
+/* REGION COLORS */
+.region.NA { background: #dc2626; }
+.region.EU { background: #16a34a; }
+.region.AS { background: #2563eb; }
+.region.AF { background: #ca8a04; }
+.region.SA { background: #f97316; }
+.region.OC { background: #06b6d4; }
+
+/* =========================
+   TIER BADGE
+========================= */
+.tier-badge {
+    width: 34px;
+    height: 34px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+    font-weight: bold;
+
+    text-shadow: none !important;
+}
+
+/* TIERS */
+.S { background: #ef4444; }
+.A { background: #22c55e; }
+.B { background: #84cc16; }
+.C { background: #eab308; }
+.D { background: #a855f7; }
+
+/* F TIER */
+.tier-badge.F {
+    background: #FF00B3;
+    color: white;
+}
+
+/* =========================
+   MODAL
+========================= */
+.modal {
+    position: fixed;
+    inset: 0;
+
+    background: rgba(0,0,0,0.7);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-shadow: none !important;
+}
+
+.hidden {
+    display: none;
+}
+
+.modal-content {
+    width: 420px;
+    background: #0f172a;
+
+    padding: 20px;
+    border-radius: 12px;
+
+    text-align: center;
+
+    text-shadow: none !important;
+}
+
+#closeModal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+    cursor: pointer;
+    font-size: 20px;
+
+    text-shadow: none !important;
+}
+
+.modal-avatar {
+    width: 90px;
+    height: 90px;
+}
+
+/* =========================
+   SUBTIERS
+========================= */
+#modalSubtiers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.mode {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ICONS */
+.mode-icon {
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+    display: block;
+    cursor: pointer;
+}
+
+/* TOOLTIP */
+.mode-tooltip {
+    display: none;
+
+    position: absolute;
+    bottom: 130%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    background: #020617;
+    border: 1px solid #334155;
+
+    padding: 6px 8px;
+    border-radius: 6px;
+
+    font-size: 11px;
+    white-space: nowrap;
+
+    z-index: 999;
+
+    text-shadow: none !important;
+}
+
+.mode:hover .mode-tooltip {
+    display: block;
+}
+
+/* TOOLTIP TIERS */
+.tier-S { background: #ef4444; }
+.tier-A { background: #22c55e; }
+.tier-B { background: #84cc16; }
+.tier-C { background: #eab308; }
+.tier-D { background: #a855f7; }
+.tier-F { background: #FF00B3; }
