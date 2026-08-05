@@ -123,6 +123,23 @@ const players = [
 },
 
 {
+    name:"Qwixy_",
+    overall:"S",
+    region:"EU",
+
+    subtiers:{
+        sword:"S",
+        crystal:"S",
+        axe:"S",
+        uhc:"S",
+        smp:"A",
+        nethpot:"A",
+        diapot:"A",
+        mace:"A"
+    }
+},
+
+{
     name:"StormyMcYt",
     overall:"S",
     region:"EU",
