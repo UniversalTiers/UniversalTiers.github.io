@@ -71,24 +71,6 @@ const players = [
 },
 
 {
-    name:"Warsky",
-    overall:"S",
-    skin:"Clownpierce",
-    region:"NA",
-
-    subtiers:{
-        sword:"A",
-        crystal:"S",
-        axe:"S",
-        uhc:"A",
-        smp:"S",
-        nethpot:"A",
-        diapot:"A",
-        mace:"S"
-    }
-},
-
-{
     name:"Mazes__",
     overall:"S",
     region:"AS",
@@ -190,6 +172,25 @@ const players = [
     }
 },
 
+{
+    name:"Warsky",
+    overall:"A",
+    skin:"Clownpierce",
+    region:"NA",
+
+    subtiers:{
+        sword:"A",
+        crystal:"A",
+        axe:"A",
+        uhc:"A",
+        smp:"A",
+        nethpot:"A",
+        diapot:"A",
+        mace:"S"
+    }
+},
+
+   
 {
     name:"lvCraft_",
     overall:"A",
