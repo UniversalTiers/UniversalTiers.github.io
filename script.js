@@ -139,21 +139,22 @@ const players = [
 },
 
 {
-    name:"Estoniavillager",
+    name:"lvCraft_",
     overall:"S",
-    region:"EU",
+    region:"AS",
 
     subtiers:{
-        sword:"A",
+        sword:"S",
         crystal:"S",
-        axe:"B",
-        uhc:"C",
-        smp:"B",
-        nethpot:"B",
-        diapot:"B",
-        mace:"B"
+        axe:"S",
+        uhc:"A",
+        smp:"A",
+        nethpot:"A",
+        diapot:"A",
+        mace:"S"
     }
 },
+
 
 {
     name:"BloodyA75L",
@@ -190,23 +191,22 @@ const players = [
     }
 },
 
-   
 {
-    name:"lvCraft_",
+    name:"Estoniavillager",
     overall:"A",
-    region:"AS",
+    region:"EU",
 
     subtiers:{
-        sword:"A",
-        crystal:"S",
-        axe:"A",
-        uhc:"A",
-        smp:"A",
-        nethpot:"A",
-        diapot:"A",
+        sword:"D",
+        crystal:"A",
+        axe:"B",
+        uhc:"C",
+        smp:"B",
+        nethpot:"B",
+        diapot:"B",
         mace:"A"
     }
-},
+},   
 
 {
     name:"chrmozinx",
