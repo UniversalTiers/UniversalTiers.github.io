@@ -311,6 +311,22 @@ const players = [
         mace:"B"
     }
 },
+{
+    name:"pvpwithrudra",
+    overall:"B",
+    region:"AS",
+
+    subtiers:{
+        sword:"A",
+        crystal:"C",
+        axe:"B",
+        uhc:"B",
+        smp:"C",
+        nethpot:"B",
+        diapot:"C",
+        mace:"D"
+    }
+},
 
 {
     name:"antinity",
