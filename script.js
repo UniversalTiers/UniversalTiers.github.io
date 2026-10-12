@@ -327,7 +327,23 @@ const players = [
         mace:"D"
     }
 },
+{
+    name:"kiratoxln",
+    overall:"D",
+    region:"AS",
 
+    subtiers:{
+        sword:"B",
+        crystal:"F",
+        axe:"C",
+        uhc:"D",
+        smp:"D",
+        nethpot:"B",
+        diapot:"B",
+        mace:"A"
+    }
+},
+   
 {
     name:"antinity",
     overall:"D",
